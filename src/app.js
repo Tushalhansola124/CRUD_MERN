@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use("/api/students",studentRouter)
 
-app.get("/",(req,res)=>{
+app.get("/test",(req,res)=>{
     res.send("API is working fine");
 })
 
